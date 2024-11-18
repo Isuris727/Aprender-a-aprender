@@ -72,6 +72,12 @@
   background-color: #2f80ed;
 }
 
+.two-columns {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+
 /* incluidos aquellos con modificadores clave-valor */
 .table__cell_theme_dark {
   width: 200px;
