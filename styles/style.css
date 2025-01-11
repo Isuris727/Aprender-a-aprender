@@ -55,8 +55,8 @@
 }
 
 .header__main-ilustration {
-  height: 756px;
-  width: 608px;
+  max-height: 756px;
+  max-width: 608px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -64,8 +64,10 @@
 }
 
 .header__square-pic {
-  height: 568px;
-  width: 568px;
+  width: 39.5%;
+  height: 75.14%;
+  max-width: 568px;
+  max-height: 568px;
   position: absolute;
   right: 0;
   top: 64px;
@@ -76,6 +78,7 @@
   margin: 100px auto;
 }
 
+/* ------- two columns  ------- */
 .two-columns {
   display: flex;
   justify-content: space-between;
@@ -104,6 +107,40 @@
   font-weight: bold;
   margin: 0;
 }
+
+/* ------- Title and subtitle ------- */
+
+.section-title {
+  width: 60%;
+  margin: 100px auto 20px;
+  text-align: center;
+}
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+/* ------- table ------- */
+
+.digits__table {
+  margin: 0 auto;
+}
+
+.table {
+  display: flex;
+  width: 1100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 60px;
+}
+.table__cell {
+  width: 250px;
+}
+/* .table__heading {
+}
+.table__text {
+} */
 
 /* incluidos aquellos con modificadores clave-valor */
 .table__cell_theme_dark {
